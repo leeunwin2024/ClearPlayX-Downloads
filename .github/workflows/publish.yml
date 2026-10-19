@@ -24,5 +24,6 @@ jobs:
         run: |
           gh release create v0.14.0 \
             ClearPlayX-0.14.0-logo-dashboard.apk \
+            --repo leeunwin2024/ClearPlayX-Downloads \
             --title "ClearPlayX 0.14.0" \
             --notes "ClearPlayX 0.14.0 for Android TV, Fire TV and Android. Includes the updated black-and-gold dashboard branding."
